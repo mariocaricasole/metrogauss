@@ -14,7 +14,7 @@ means = []
 def p(x,mu,sigma):
     return np.exp(-(x-mu)**2/(2*sigma**2))
 
-#run through Markov chain implementin Metropolis
+#run through Markov chain implementing Metropolis
 for i in range(L):
     #define symmetric interval
     left,right = xk - delta, xk + delta
